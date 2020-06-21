@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { Home } from './Home';
 import { Games } from './Games';
 import { Movies } from './Movies';
+import { LoginForm } from './LoginForm';
 import { MonsterHunter } from './MonsterHunter';
 import { GOW } from './GOW';
 import { JetPacks } from './JetPacks';
@@ -61,6 +62,7 @@ class App extends Component {
           <Route path="/Spice" component={Spice} />
           <Route path="/Thanos" component={Thanos} />
           <Route path="/Valkyrie" component={Valkyrie} />
+          <Route path="/LoginForm" component={LoginForm} />
           <Route component={NoMatch} />
         </Switch>
       </Router>
